@@ -1,9 +1,6 @@
 main{
     width: 100%;
-    height: auto;
-    padding: auto;
-    margin: 0;
-    box-sizing: border-box;
+    height: 100%;
 }
 .foto {
     width: 100%;
@@ -13,6 +10,7 @@ main{
     margin-top: 20px;
     margin-bottom: -250px;
 }
+
 .foto_inicio{
     width: 100%;
     max-width: 300px;
@@ -27,6 +25,8 @@ main{
     height: auto;
     padding: 100px 30px;
     background-color: #C5B7AA;
+    margin-left: auto;
+    margin-right: auto;
    
 }
 
@@ -40,7 +40,6 @@ main{
 }
 #inicio h3{
     text-align: center;
-    margin-bottom: 20px;
 }
 
 #inicio hr{
@@ -58,6 +57,31 @@ main{
     text-align:center;
     font-family: 'Dancing Script', cursive;
 }
+
+.boton{
+  background-color: #C5B7AA; 
+  text-align: center;
+  margin-top: -120px;
+  padding: 60px;
+}
+
+#descargarPDF{
+  margin-top: 30px;
+  background-color: transparent;
+  border: 2px solid #f3f1ef; 
+  border-radius: 5px;
+  color: black; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s; 
+
+}
+.img-github{
+  width: 100%;
+  max-width: 60px;
+  margin-left:20px;
+}
+
+
 #contenedor_banner{
     width: 100%;
     height:auto;
@@ -70,6 +94,14 @@ main{
     width: 80%;
     height:auto;
     margin-bottom: 70px;
+}
+
+.skills{
+  font-family: 'Anton', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: 900;
 }
 
 #logos img{

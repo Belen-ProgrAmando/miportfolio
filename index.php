@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <!--Style titulo h1-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>Portfolio Belen barrientos</title>
 </head>
 <body>
@@ -30,7 +34,23 @@
             de proyectos desafiantes y seguir creciendo como profesional 
             en el campo del desarrollo web.
         </h4>
-    </div>  
+        </div>  
+        <div class="boton">
+        <button id="descargarPDF">Descargar CV</button>
+
+        <a id="enlacePDF" href="img/CV_Belén Barrientos_2023.pdf" download="CV_Belén Barrientos_2023.pdf" style="display:none">Descargar CV</a>
+
+       <script>
+    document.getElementById('descargarPDF').addEventListener('click', function() {
+      var enlacePDF = document.getElementById('enlacePDF');
+      enlacePDF.click();
+    });
+  </script>
+  <a href="https://github.com/Belen-ProgrAmando" target="_blanc">
+  <img  src="img/github-mark.png"  class="img-github">
+  </a>
+        </div>
+    
     <div id="contenedor_banner">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicadores de carrusel (Opcionales) -->
@@ -76,6 +96,8 @@
     </div>
 
     <div id="logos">
+
+    <h1 class="skills"> Mis Skills </h1>
 
         <img src="img/HTML5_Logo_256.png" class="animated-element">
         <img src="img/css.png" class="animated-element">
@@ -148,13 +170,7 @@
             </div>
         </div>
     </div> 
-    </div>
-
-    
-
-
-    
-    
+    </div> 
 
 </main>        
  <footer>
